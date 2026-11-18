@@ -7,10 +7,24 @@ body {
 
 /* 中间的白色内容卡片 */
 .box {
-    max-width: 500px;       /* 限制最大宽度 */
-    margin: auto;           /* 自动外填充实现居中 */
-    background: white; 
-    padding: 30px;          /* 内部留白 */
-    padding-bottom: 20em;   /* 底部填充，更像纸张 */
-    border-radius: 10px;    /* 圆角效果 */
+    background: white;
+
+    /* 自动外填充实现居中 */       
+    margin: auto;           
+    
+    /* 留白限宽，模仿纸张效果 */
+    max-width: 80%; 
+    padding: 30px;
+    padding-bottom: 20em;   
+    border-radius: 10px;
+}
+
+/* 底部信息 */
+footer {
+    color: white; 
+
+    /* 贴近底部 */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
