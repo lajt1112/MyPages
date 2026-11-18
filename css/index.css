@@ -1,0 +1,16 @@
+/* 设置整个页面的背景和字体 */
+body {
+    background-color: #333;
+    
+    padding: 40px 20px;
+}
+
+/* 中间的白色内容卡片 */
+.box {
+    max-width: 500px;       /* 限制最大宽度 */
+    margin: auto;           /* 自动外填充实现居中 */
+    background: white; 
+    padding: 30px;          /* 内部留白 */
+    padding-bottom: 20em;   /* 底部填充，更像纸张 */
+    border-radius: 10px;    /* 圆角效果 */
+}
